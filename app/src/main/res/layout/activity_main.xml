@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBEBEB"
+    android:orientation="vertical"
+    tools:context="com.example.yeswanth.recyclerview_advanced.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="QOL HEALTH"
+                android:textColor="#000" />
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <com.daimajia.slider.library.SliderLayout
+        android:id="@+id/imageslider1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <!--<TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_weight="3">
+
+            <RelativeLayout
+                android:background="@drawable/shape"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/tab" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image"
+                    android:layout_centerHorizontal="true"
+                    android:text="baby" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:background="@drawable/shape"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_back" />
+
+
+            </RelativeLayout>
+-->
+    <!-- <RelativeLayout
+         android:background="@drawable/shape"
+         android:layout_width="wrap_content"
+         android:layout_height="match_parent"
+         android:layout_weight="1">
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/ic_back" />
+
+
+     </RelativeLayout>
+
+
+ </TableRow>
+
+ <TableRow
+     android:layout_width="wrap_content"
+     android:layout_height="50dp"
+     android:layout_weight="3">
+
+     <RelativeLayout
+         android:background="@drawable/shape"
+         android:layout_width="wrap_content"
+         android:layout_height="match_parent"
+         android:layout_weight="1">
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/ic_back" />
+
+
+     </RelativeLayout>
+
+     <RelativeLayout
+         android:background="@drawable/shape"
+         android:layout_width="wrap_content"
+         android:layout_height="match_parent"
+         android:layout_weight="1">
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/ic_back" />
+
+
+     </RelativeLayout>
+
+     <RelativeLayout
+         android:background="@drawable/shape"
+         android:layout_width="wrap_content"
+         android:layout_height="match_parent"
+         android:layout_weight="1">
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/ic_back" />
+
+
+     </RelativeLayout>
+
+
+ </TableRow>
+
+ <TableRow
+     android:layout_width="wrap_content"
+     android:layout_height="50dp"
+     android:layout_weight="3">
+
+     <RelativeLayout
+         android:background="@drawable/shape"
+         android:layout_width="wrap_content"
+         android:layout_height="match_parent"
+         android:layout_weight="1">
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/ic_back" />
+
+
+     </RelativeLayout>
+
+     <RelativeLayout
+         android:background="@drawable/shape"
+         android:layout_width="wrap_content"
+         android:layout_height="match_parent"
+         android:layout_weight="1">
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/ic_back" />
+
+
+     </RelativeLayout>
+
+     <RelativeLayout
+         android:background="@drawable/shape"
+         android:layout_width="wrap_content"
+         android:layout_height="match_parent"
+         android:layout_weight="1">
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/ic_back" />
+
+
+     </RelativeLayout>
+
+
+ </TableRow>
+</TableLayout>
+-->
+</LinearLayout>
